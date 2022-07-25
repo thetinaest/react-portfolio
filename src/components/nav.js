@@ -1,8 +1,9 @@
 import { toHaveAccessibleDescription } from "@testing-library/jest-dom/dist/matchers";
 import { getMouseEventOptions } from "@testing-library/user-event/dist/utils";
+import React from 'react';
 
 function Nav(props) {
-    const {} = props;
+    const {options} = props;
 
     return(
         <header>
@@ -10,10 +11,16 @@ function Nav(props) {
                 Kristina Brennan
             </h1>
             <nav>
-                {options.map(option => {
-
-                })}
+                <ul>
+                    {options.map(option => {
+                        return(
+                            <li key={option.name}><a href={option.link}>{option.name}</a></li>
+                        );
+                    })}
+                </ul>
             </nav>
         </header>
-    );
-}
+    );  
+};
+
+export default Nav;
