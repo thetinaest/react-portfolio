@@ -1,8 +1,12 @@
 import './App.css';
 import { useState } from 'react';
 import Nav from './components/nav.js';
-import Portfolio from './components/portfolio'
-import About from './components/about'
+import Portfolio from './components/portfolio';
+import About from './components/about';
+import Contact from './components/contact';
+import Footer from './components/footer';
+import Resume from './components/resume';
+
 
 const options = [
   {
@@ -47,13 +51,23 @@ const projects = [
 ]
 
 function App() {
+  const [curOption, setCurOption] = useState(options[0]);
+
   return (
     <>
         <Nav
           options={options}
+          curOption={curOption}
+          setCurOption={setCurOption}
         ></Nav>
-        <About></About>
-        <Portfolio projects={projects}></Portfolio>
+        <main>
+          {curOption.name === 'About Me' && <About/>}
+          {curOption.name === 'Portfolio' && <Portfolio projects={projects}></Portfolio>}
+          {curOption.name === 'Contact Me' && <Contact/>}
+          {curOption.name === 'Resume' && <Resume/>}
+          <Footer></Footer>
+        </main>
+
     </>
   );
 }

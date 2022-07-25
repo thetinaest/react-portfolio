@@ -3,7 +3,7 @@ import { getMouseEventOptions } from "@testing-library/user-event/dist/utils";
 import React from 'react';
 
 function Nav(props) {
-    const {options} = props;
+    const {options, curOption, setCurOption} = props;
 
     return(
         <header>
@@ -14,7 +14,14 @@ function Nav(props) {
                 <ul>
                     {options.map(option => {
                         return(
-                            <li key={option.name}><a href={option.link}>{option.name}</a></li>
+                            <li
+                                href={option.link}
+                                key={option.name}
+                                className={curOption.name === option.name ? 'focus': ''}
+                                onClick={() => {
+                                    setCurOption(option)
+                                }}>{option.name}
+                            </li>
                         );
                     })}
                 </ul>

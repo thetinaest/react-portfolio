@@ -19,19 +19,34 @@ header {
   align-items: center;
 }
 
-header ul {
+header h1 {
+  color: #cad8e2;
+  background-color: #7d94a6;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 56px;
+  text-shadow: 1px 5px 15px black;
+  margin: 5px;
+}
+
+nav ul {
   display: flex;
   justify-content: space-between;
   padding-right: 10px;
-
+  list-style: none;
 }
 
 li {
-  padding: 0 10px 0 10px;
-  list-style: none;
-  font-size: 20px;
+  font-size: 2vw;
+  color: white;
+  text-shadow: 1px 5px 15px black;
+  padding: 20px;
 }
 
 li a {
   text-decoration: none;
+}
+
+.focus {
+ color: #213815;
 }
