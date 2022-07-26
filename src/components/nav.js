@@ -8,7 +8,7 @@ function Nav(props) {
     return(
         <header>
             <h1>
-                Kristina Brennan
+                Kris<span>tina</span> Brennan
             </h1>
             <nav>
                 <ul>
