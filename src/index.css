@@ -131,6 +131,26 @@ h2 {
   transition: 0.3s;
 }
 
+form {
+  text-align: center;
+}
+
+input {
+  width: 375px;
+  padding: 5px;
+  margin: 10px;
+}
+
+button {
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.message {
+  height: 100px;
+}
+
 footer {
   display: flex;
   justify-content: space-evenly;
