@@ -71,6 +71,11 @@ const avatar = {
   picture: require('./assets/dog.jpg')
 }
 
+const resume = {
+  resume: require('./assets/Profile.pdf'),
+  link: './assets/Profile.pdf'
+}
+
 function App() {
   const [curOption, setCurOption] = useState(options[0]);
 
@@ -85,7 +90,7 @@ function App() {
           {curOption.name === 'About Me' && <About avatar={avatar}/>}
           {curOption.name === 'Portfolio' && <Portfolio projects={projects}></Portfolio>}
           {curOption.name === 'Contact Me' && <Contact/>}
-          {curOption.name === 'Resume' && <Resume/>}
+          {curOption.name === 'Resume' && <Resume resume={resume}/>}
           <Footer></Footer>
         </main>
 
