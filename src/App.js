@@ -29,6 +29,12 @@ const options = [
 
 const projects = [
   {
+    name: "Jessie's List",
+    github: 'https://github.com/thetinaest/chores-app',
+    live: 'https://nameless-inlet-86757.herokuapp.com/',
+    picture: require('./assets/choresList.png')
+  },
+  {
     name: 'Book Bits',
     github: 'https://github.com/Mazattack1999/book-bits',
     live: 'https://book-bits-blog.herokuapp.com/',
