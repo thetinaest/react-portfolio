@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.303d1865.css",
-    "main.js": "/react-portfolio/static/js/main.ecc1920f.js",
+    "main.css": "/react-portfolio/static/css/main.85d5f48d.css",
+    "main.js": "/react-portfolio/static/js/main.54e68db7.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/forest.jpg": "/react-portfolio/static/media/forest.f0d57b72584f9e1783eb.jpg",
     "static/media/bookshelf.jpg": "/react-portfolio/static/media/bookshelf.6e6c93951255cf74a70e.jpg",
@@ -14,12 +14,12 @@
     "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.d79633360950ca891395.png",
     "static/media/tunalyze.png": "/react-portfolio/static/media/tunalyze.459162f8bb92d86f8063.png",
     "index.html": "/react-portfolio/index.html",
-    "main.303d1865.css.map": "/react-portfolio/static/css/main.303d1865.css.map",
-    "main.ecc1920f.js.map": "/react-portfolio/static/js/main.ecc1920f.js.map",
+    "main.85d5f48d.css.map": "/react-portfolio/static/css/main.85d5f48d.css.map",
+    "main.54e68db7.js.map": "/react-portfolio/static/js/main.54e68db7.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.303d1865.css",
-    "static/js/main.ecc1920f.js"
+    "static/css/main.85d5f48d.css",
+    "static/js/main.54e68db7.js"
   ]
 }
