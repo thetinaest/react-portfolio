@@ -6,7 +6,6 @@ function About(props) {
     const words = ['MERN Stack Developer', 'PWA Developer', 'Node.js Developer', 'React Developer', 'Full Stack Developer'];
     const[index, setIndex] = useState(0);
     const [subIndex, setSubIndex] = useState(0);
-    const [blink, setBlink] = useState(true); 
     const [reverse, setReverse] = useState(false);
 
 
@@ -51,6 +50,8 @@ function About(props) {
                 After some time learning new technologies on my own, I had the opportunity to move into a web development position within my company. Shortly after, I enrolled in and completed a rigorous coding bootcamp through the University of Wisconsin.<br/><br/>
                 I am now continuing to work on my own personal projects while gaining experience working professionally as a web developer.</p>
             </div>
+            <a href='https://www.linkedin.com/in/kristina-b-ba38851b7/' target='_blank'> <i class="fa-brands fa-linkedin"></i></a>
+            <a href='https://github.com/thetinaest' target='_blank'><i class="fa-brands fa-github"></i></a>
         </section>
     );  
 };

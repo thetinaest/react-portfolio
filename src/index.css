@@ -67,13 +67,23 @@ h2 {
   width: 60vw;
   margin-left: 25px;
   margin-right: 100px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .about div {
-  margin: 20px;
+  margin: 20px 20px 0 20px;
   text-align: center;
   display: flex;
   justify-content: space-between;
+}
+
+.about a {
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+  text-shadow: 1px 5px 15px black;
 }
 
 .avatar {
@@ -92,9 +102,9 @@ li {
   padding: 20px;
 }
 
-li:hover, footer a:hover{
+li:hover, .about a:hover{
   text-shadow: 1px 5px 15px black, 1px 5px 15px white;
-  font-weight: bold;
+  margin-top: -5px;
   transition: 0.1s;
 }
 
@@ -226,7 +236,7 @@ button:active {
   color: white;
 }
 
-footer {
+/* footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -236,14 +246,14 @@ footer {
   margin: 100px 0 0 0;
   position: fixed;
   bottom: 0px;
-}
+} */
 
-footer a {
+/* footer a {
   text-decoration: none;
   font-size: 2.5vw;
   color: white;
   text-shadow: 1px 5px 15px black;
-}
+} */
 
 @media only screen and (max-width: 600px) {
 
@@ -271,6 +281,7 @@ footer a {
     margin-left: auto;
     margin-right: auto;
     margin-top: -20px;
+    margin-right: 0;
   }
 
   nav ul li {
