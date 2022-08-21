@@ -3,18 +3,12 @@ import { useEffect, useState } from 'react';
 
 function About(props) {
     const {avatar} = props;
-    const words = ['MERN stack Developer', 'PWA Developer', 'Node.js Develper', 'React Developer', 'Full Stack Developer'];
+    const words = ['MERN stack Developer', 'PWA Developer', 'Node.js Developer', 'React Developer', 'Full Stack Developer'];
     const[index, setIndex] = useState(0);
     const [subIndex, setSubIndex] = useState(0);
     const [blink, setBlink] = useState(true); 
     const [reverse, setReverse] = useState(false);
 
-    // useEffect(() => {
-    //     const timeout2 = setTimeout(() => {
-    //     setBlink((prev) => !prev);
-    //     }, 500);
-    //     return () => clearTimeout(timeout2);
-    //   }, [blink]);
 
       useEffect(() => {
         if (
@@ -48,7 +42,7 @@ function About(props) {
         <section className='about'>
             <h2>About Me</h2>
             <h3>
-                {`${words[index].substring(0, subIndex)}${blink ? "|" : ""}`}
+                {`${words[index].substring(0, subIndex)}|`}
             </h3>
             <div>
                 <img className='avatar' src={avatar.picture} alt={avatar.alt}></img>
