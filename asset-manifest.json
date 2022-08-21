@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.334a5cef.css",
-    "main.js": "/react-portfolio/static/js/main.d22d17fb.js",
+    "main.css": "/react-portfolio/static/css/main.303d1865.css",
+    "main.js": "/react-portfolio/static/js/main.ecc1920f.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/forest.jpg": "/react-portfolio/static/media/forest.f0d57b72584f9e1783eb.jpg",
     "static/media/bookshelf.jpg": "/react-portfolio/static/media/bookshelf.6e6c93951255cf74a70e.jpg",
-    "static/media/dog.jpg": "/react-portfolio/static/media/dog.a34dfe40c4edb98ab686.jpg",
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.4f1fc3a397d469f4f684.png",
     "static/media/choresList.png": "/react-portfolio/static/media/choresList.4d3b7e39ed5f158cad1e.png",
     "static/media/Profile.pdf": "/react-portfolio/static/media/Profile.094064c24d7d3c004c54.pdf",
     "static/media/calendar.png": "/react-portfolio/static/media/calendar.7d00972e481ca9c46808.png",
+    "static/media/kristina.jpg": "/react-portfolio/static/media/kristina.71674737c6417ec169fb.jpg",
     "static/media/coding-quiz.png": "/react-portfolio/static/media/coding-quiz.dd884021ad2df20578d2.png",
     "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.d79633360950ca891395.png",
     "static/media/tunalyze.png": "/react-portfolio/static/media/tunalyze.459162f8bb92d86f8063.png",
     "index.html": "/react-portfolio/index.html",
-    "main.334a5cef.css.map": "/react-portfolio/static/css/main.334a5cef.css.map",
-    "main.d22d17fb.js.map": "/react-portfolio/static/js/main.d22d17fb.js.map",
+    "main.303d1865.css.map": "/react-portfolio/static/css/main.303d1865.css.map",
+    "main.ecc1920f.js.map": "/react-portfolio/static/js/main.ecc1920f.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.334a5cef.css",
-    "static/js/main.d22d17fb.js"
+    "static/css/main.303d1865.css",
+    "static/js/main.ecc1920f.js"
   ]
 }
