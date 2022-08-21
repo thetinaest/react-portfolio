@@ -1,17 +1,62 @@
 import React from 'react';
+import { useEffect, useState } from 'react';
 
 function About(props) {
     const {avatar} = props;
+    const words = ['MERN stack Developer', 'PWA Developer', 'Node.js Develper', 'React Developer', 'Full Stack Developer'];
+    const[index, setIndex] = useState(0);
+    const [subIndex, setSubIndex] = useState(0);
+    const [blink, setBlink] = useState(true); 
+    const [reverse, setReverse] = useState(false);
+
+    // useEffect(() => {
+    //     const timeout2 = setTimeout(() => {
+    //     setBlink((prev) => !prev);
+    //     }, 500);
+    //     return () => clearTimeout(timeout2);
+    //   }, [blink]);
+
+      useEffect(() => {
+        if (
+          index === words.length - 1 &&
+          subIndex === words[index].length
+          ) {
+            return;
+          }
+        if (
+          subIndex === words[index].length + 1 &&
+          index !== words.length - 1 &&
+          !reverse
+          ) {
+            setReverse(true);
+            return;
+           }
+         
+        if (subIndex === 0 && reverse) {
+          setReverse(false);
+          setIndex((prev) => prev + 1);
+          return;
+           }
+         const timeout = setTimeout(() => {
+         setSubIndex((prev) => prev + (reverse ? -1 : 1));
+         }, 200);
+         
+         return () => clearTimeout(timeout);
+         }, [subIndex, index, reverse]);
 
     return(
         <section className='about'>
             <h2>About Me</h2>
-            <img className='avatar' src={avatar.picture} alt={avatar.alt}></img>
-            <section>
-                <p>I am a full stack web developer with an ability to quickly learn new technologies. I began learning how to code back in 2017 with C++ and slowly progressed from there.</p>
-                <p>In the beginning of 2022 I began a bootcamp through the University of Wisconsin's Extended Campus to learn more about coding and how to use my skills.</p>
-                <p>My dream is to become a software developer someday!</p>
-            </section>
+            <h3>
+                {`${words[index].substring(0, subIndex)}${blink ? "|" : ""}`}
+            </h3>
+            <div>
+                <img className='avatar' src={avatar.picture} alt={avatar.alt}></img>
+                <p>
+                A few years ago, I began learning to code in C++ just for entertainment. I had plently of difficulty and failures along the way but I realized quickly that even though the challenges of learning something new, I had developed a passion for what I was creating.<br/><br/>
+                After some time learning new technologies on my own, I had the opportunity to move into a web development position within my company. Shortly after, I enrolled in and completed a rigorous coding bootcamp through the University of Wisconsin.<br/><br/>
+                I am now continuing to work on my own personal projects while gaining experience working professionally as a web developer.</p>
+            </div>
         </section>
     );  
 };

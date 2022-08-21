@@ -73,8 +73,8 @@ const projects = [
 ]
 
 const avatar = {
-  alt: 'Atlas the dog, being very cute.',
-  picture: require('./assets/dog.jpg')
+  alt: 'kristina holding her dog',
+  picture: require('./assets/kristina.jpg')
 }
 
 const resume = {
@@ -97,7 +97,7 @@ function App() {
           {curOption.name === 'Portfolio' && <Portfolio projects={projects}></Portfolio>}
           {curOption.name === 'Contact Me' && <Contact/>}
           {curOption.name === 'Resume' && <Resume resume={resume}/>}
-          <Footer></Footer>
+          {/* <Footer></Footer> */}
         </main>
 
     </>
