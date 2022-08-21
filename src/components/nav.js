@@ -1,5 +1,3 @@
-import { toHaveAccessibleDescription } from "@testing-library/jest-dom/dist/matchers";
-import { getMouseEventOptions } from "@testing-library/user-event/dist/utils";
 import React from 'react';
 
 function Nav(props) {

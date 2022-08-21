@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 function About(props) {
     const {avatar} = props;
-    const words = ['MERN stack Developer', 'PWA Developer', 'Node.js Developer', 'React Developer', 'Full Stack Developer'];
+    const words = ['MERN Stack Developer', 'PWA Developer', 'Node.js Developer', 'React Developer', 'Full Stack Developer'];
     const[index, setIndex] = useState(0);
     const [subIndex, setSubIndex] = useState(0);
     const [blink, setBlink] = useState(true); 
@@ -33,7 +33,7 @@ function About(props) {
            }
          const timeout = setTimeout(() => {
          setSubIndex((prev) => prev + (reverse ? -1 : 1));
-         }, 200);
+         }, 150);
          
          return () => clearTimeout(timeout);
          }, [subIndex, index, reverse]);
