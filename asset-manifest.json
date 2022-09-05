@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.2de0b871.css",
-    "main.js": "/react-portfolio/static/js/main.54e68db7.js",
+    "main.js": "/react-portfolio/static/js/main.3aa6082c.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/tunalyze.PNG": "/react-portfolio/static/media/tunalyze.d9b41382e4df12aa0b53.PNG",
+    "static/media/book-bits-homepage.png": "/react-portfolio/static/media/book-bits-homepage.87728ecec283e2b73d28.png",
     "static/media/forest.jpg": "/react-portfolio/static/media/forest.f0d57b72584f9e1783eb.jpg",
-    "static/media/bookshelf.jpg": "/react-portfolio/static/media/bookshelf.6e6c93951255cf74a70e.jpg",
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.4f1fc3a397d469f4f684.png",
     "static/media/choresList.png": "/react-portfolio/static/media/choresList.4d3b7e39ed5f158cad1e.png",
     "static/media/Profile.pdf": "/react-portfolio/static/media/Profile.094064c24d7d3c004c54.pdf",
@@ -12,14 +13,13 @@
     "static/media/kristina.jpg": "/react-portfolio/static/media/kristina.71674737c6417ec169fb.jpg",
     "static/media/coding-quiz.png": "/react-portfolio/static/media/coding-quiz.dd884021ad2df20578d2.png",
     "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.d79633360950ca891395.png",
-    "static/media/tunalyze.png": "/react-portfolio/static/media/tunalyze.459162f8bb92d86f8063.png",
     "index.html": "/react-portfolio/index.html",
     "main.2de0b871.css.map": "/react-portfolio/static/css/main.2de0b871.css.map",
-    "main.54e68db7.js.map": "/react-portfolio/static/js/main.54e68db7.js.map",
+    "main.3aa6082c.js.map": "/react-portfolio/static/js/main.3aa6082c.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2de0b871.css",
-    "static/js/main.54e68db7.js"
+    "static/js/main.3aa6082c.js"
   ]
 }
