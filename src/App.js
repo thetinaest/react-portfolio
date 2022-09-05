@@ -44,7 +44,6 @@ const projects = [
     live: 'https://book-bits-blog.herokuapp.com/',
     // picture: require('./assets/bookshelf.jpg')
     picture: <FontAwesomeIcon icon={faBookBookmark} />
-
   }, 
   {
     name: 'Tunalyze',
@@ -79,7 +78,7 @@ const projects = [
     github: 'https://github.com/thetinaest/password-generator',
     live: 'https://thetinaest.github.io/password-generator/',
     //picture: require('./assets/password-generator.png')
-  picture: <FontAwesomeIcon icon={faKey} />
+    picture: <FontAwesomeIcon icon={faKey} />
   }
 ]
 
