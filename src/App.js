@@ -18,10 +18,6 @@ const options = [
     link: "/portfolio"
   },
   {
-    name: "Contact Me",
-    link: "/contact-me"
-  },
-  {
     name: "Resume",
     link: '/resume'
   }
@@ -38,13 +34,13 @@ const projects = [
     name: 'Book Bits',
     github: 'https://github.com/Mazattack1999/book-bits',
     live: 'https://book-bits-blog.herokuapp.com/',
-    picture: require('./assets/bookshelf.jpg')
+    picture: require('./assets/book-bits-homepage.png')
   }, 
   {
     name: 'Tunalyze',
     github: 'https://github.com/thetinaest/Tunalyze',
     live: 'https://thetinaest.github.io/Tunalyze/',
-    picture: require('./assets/tunalyze.png')
+    picture: require('./assets/tunalyze.PNG')
   }, 
   {
     name: 'Weather Dashboard',
